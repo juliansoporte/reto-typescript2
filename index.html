@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TypeScript</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+</head>
+<body>
+    <h1>Curso de TypeScript</h1>
+    <hr>
+    <div>	
+        <div id="app">
+            <form id="characterForm">
+                <fieldset>
+                    <label for="id">ID:</label>
+                    <input type="text" id="id" name="id">
+                </fieldset>
+                <fieldset>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                </fieldset>
+                <fieldset>
+                    <label for="status">Status:</label>
+                    <input type="text" id="status" name="status">
+                </fieldset>
+                <fieldset>
+                    <label for="species">Species:</label>
+                    <input type="text" id="species" name="species">
+                </fieldset>
+                <fieldset>
+                    <label for="type">Type:</label>
+                    <input type="text" id="type" name="type">
+                </fieldset>
+               
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+		<button id="btnLoadData">Cargar informacion desde el api y almacena en LocalStore characters</button>
+        <button id="btnLoadFromStorage">Carga desde LocalStore</button>
+        <div id="characters-container"></div>
+        
+	</div>
+    <script src="bundle.js"></script>
+</body>
+</html>
