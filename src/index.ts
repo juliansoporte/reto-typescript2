@@ -1,14 +1,8 @@
 import { Character } from './Interface/Character';
-import { Hero } from './classes/Hero';
 import { CharacterStorage } from './data/CharacterStorage';
 import { RickAndMortyRemote } from './data/GetCharacter';
 
-const ironman = new Hero('Ironman', 10, 55);
 const characterStorage = new CharacterStorage();
-
-console.log( ironman );
-console.log( ironman.power );
-
 
 const formElement = document.querySelector('#characterForm');
 if (!formElement) {
